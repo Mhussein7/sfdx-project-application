@@ -14,7 +14,7 @@
 	},
 
   	onRecordUpdated : function(component, event) {
-        console.log('onRecordUpdated');
+        console.log('onRecordUpdatedhjhj');
         var sObject = component.get("v.sObject");
         if (sObject) {
 	        component.set("v.title", sObject[component.get("v.titleField")]);
